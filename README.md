@@ -84,6 +84,6 @@ The second part of the lab expands the environment by allowing non-administrativ
 
 - I then logged back into DC-1 and jane_admin to verify that client-1 was in active directory
 
-   Summary
+# Summary
 
 This lab focused on deploying and configuring an Active Directory environment using Microsoft Azure. I installed Active Directory Domain Services on DC-1, promoted the server to a Domain Controller, and created the mydomain.com Active Directory forest. I then created Organizational Units for employees, administrators, and client computers, created a dedicated Domain Admin account, and joined Client-1 to the domain.
