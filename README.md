@@ -84,6 +84,11 @@ The second part of the lab expands the environment by allowing non-administrativ
 
 - I then logged back into DC-1 and jane_admin to verify that client-1 was in active directory
 
-# Summary
+# Part 2 of this lab
 
-This lab focused on deploying and configuring an Active Directory environment using Microsoft Azure. I installed Active Directory Domain Services on DC-1, promoted the server to a Domain Controller, and created the mydomain.com Active Directory forest. I then created Organizational Units for employees, administrators, and client computers, created a dedicated Domain Admin account, and joined Client-1 to the domain.
+<img width="908" height="888" alt="image" src="https://github.com/user-attachments/assets/2961c5f9-afc5-4edb-9687-19d5a759b32d" />
+
+- I first log into client-1 using the admin account Jane_admin
+- Then once I have logged in I change the settings to allow all domain users the ability to remote into client-1
+- Remote Desktop allows administrators and authorized users to remotely access Windows computers.
+- The lab demonstrates how access can be granted to a domain group instead of manually configuring each individual user.
