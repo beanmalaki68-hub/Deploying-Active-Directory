@@ -74,3 +74,16 @@ The second part of the lab expands the environment by allowing non-administrativ
 - I then created and new user in _ADMINS called Jane_admins and added that user to the domain's admins security group.
 - Instead of continuing to use the original administrative account for all tasks, this lab creates a dedicated administrative account.
 - Security groups allow permissions to be assigned to groups of users instead of configuring permissions individually.
+
+<img width="955" height="580" alt="image" src="https://github.com/user-attachments/assets/81a895f5-1fa0-417a-825f-10f4148b056e" />
+
+- I logged into client-1 and joined it to the domian.
+- Joining the client to the domain allows centralized authentication and management through Active Directory.
+
+  <img width="933" height="659" alt="image" src="https://github.com/user-attachments/assets/50231aa3-ce13-421e-b09a-ef710793a498" />
+
+- I then logged back into DC-1 and jane_admin to verify that client-1 was in active directory
+
+   Summary
+
+This lab focused on deploying and configuring an Active Directory environment using Microsoft Azure. I installed Active Directory Domain Services on DC-1, promoted the server to a Domain Controller, and created the mydomain.com Active Directory forest. I then created Organizational Units for employees, administrators, and client computers, created a dedicated Domain Admin account, and joined Client-1 to the domain.
