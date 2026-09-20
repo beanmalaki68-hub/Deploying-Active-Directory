@@ -124,3 +124,10 @@ Domain Authentication
 Client-1
        ↓
 Successful Login
+
+
+# Summary
+
+This lab focused on deploying and configuring an Active Directory environment using Microsoft Azure. I installed Active Directory Domain Services on DC-1, promoted the server to a Domain Controller, and created the mydomain.com Active Directory forest. I then created Organizational Units for employees, administrators, and client computers, created a dedicated Domain Admin account, and joined Client-1 to the domain.
+
+The lab also provided hands-on experience with Remote Desktop access for domain users and PowerShell automation. Multiple Active Directory accounts were created using a PowerShell script and verified through Active Directory Users and Computers. Finally, a newly created domain account was tested by logging into Client-1, demonstrating the complete process from account creation to domain authentication.
