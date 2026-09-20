@@ -57,5 +57,12 @@ The second part of the lab expands the environment by allowing non-administrativ
 - After installing AD DS I promoted DC-1 to a Domain Controller.
 - I promoted DC-1 to a Domain Controller and created a new Active Directory forest using mydomain.com.
 - Creating the forest establishes the Active Directory domain environment that will be used to centrally manage users and computers.
-  
+
+
 <br />
+
+<img width="925" height="636" alt="image" src="https://github.com/user-attachments/assets/efc016d9-3115-453a-900b-fad949dea241" />
+
+- I then created two Organizational Units(OU), called _EMPLOYEES & _ADMINS
+- Organizational Units help organize Active Directory objects.
+- These will be important later when creating and managing new users
