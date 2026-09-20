@@ -66,3 +66,11 @@ The second part of the lab expands the environment by allowing non-administrativ
 - I then created two Organizational Units(OU), called _EMPLOYEES & _ADMINS
 - Organizational Units help organize Active Directory objects.
 - These will be important later when creating and managing new users
+
+
+<img width="1028" height="669" alt="image" src="https://github.com/user-attachments/assets/cca00454-068f-451a-a0c8-2ddfd6208975" />
+
+
+- I then created and new user in _ADMINS called Jane_admins and added that user to the domain's admins security group.
+- Instead of continuing to use the original administrative account for all tasks, this lab creates a dedicated administrative account.
+- Security groups allow permissions to be assigned to groups of users instead of configuring permissions individually.
