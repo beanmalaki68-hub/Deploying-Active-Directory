@@ -44,6 +44,7 @@ The second part of the lab expands the environment by allowing non-administrativ
 
 </p>
 
+
 - The first major configuration step is installing Active Directory Domain Services (AD DS).
 - Active Directory Domain Services provides the centralized identity and directory infrastructure used to manage users, computers, groups, authentication, and other domain resources.
   
@@ -92,3 +93,34 @@ The second part of the lab expands the environment by allowing non-administrativ
 - Then once I have logged in I change the settings to allow all domain users the ability to remote into client-1
 - Remote Desktop allows administrators and authorized users to remotely access Windows computers.
 - The lab demonstrates how access can be granted to a domain group instead of manually configuring each individual user.
+
+<img width="1696" height="866" alt="image" src="https://github.com/user-attachments/assets/4613cff2-2dc4-4ebe-8646-25efc8c1f76c" />
+
+
+- I then logged one DC-1 and ran Powershell ISE with ADMIN privileges.
+- I ran the provided PowerShell script to automatically create multiple Active Directory user accounts.
+- Automation is an important system administration skill.
+- PowerShell can significantly reduce the time required to perform repetitive tasks such as creating multiple user accounts.
+
+
+<img width="922" height="632" alt="image" src="https://github.com/user-attachments/assets/824b40b6-e6be-4f68-af98-edcd091dddd7" />
+
+
+- I then used Active Directory to verify that the script works and the accounts are being created by PowerShell
+- Verification confirms that the automation successfully created the intended Active Directory objects.
+
+
+<img width="1249" height="983" alt="image" src="https://github.com/user-attachments/assets/3581c1d0-fc07-48ff-8553-cb902d41a4ce" />
+
+- I attempted to authenticate to Client-1 using one of the accounts created through PowerShell.
+- This provides an end-to-end verification of the user creation process:
+
+PowerShell Script
+       ↓
+Active Directory User
+       ↓
+Domain Authentication
+       ↓
+Client-1
+       ↓
+Successful Login
