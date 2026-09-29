@@ -30,4 +30,14 @@ https://github.com/user-attachments/assets/afb81b6c-d9ef-417e-b089-e4b85c4b1edd
 - Configure Domian User REmote Access
 - Setting up an environment in Active Directory 
 
-# Step 1 - 
+# Step 1 - Installing Active Directory and promoting it to a Domain Controller
+
+I then logged into the Windows Server virtual machine that I created in Microsoft Azure and installed the Active Directory Domain Services (AD DS) role. After installing AD DS, I promoted the server to a Domain Controller (DC) and configured the Active Directory domain name as BeanInc.Local.
+
+
+<h2>Video Walkthrough</h2>
+
+
+
+
+# Step 2 - CO
