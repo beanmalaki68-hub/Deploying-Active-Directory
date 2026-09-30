@@ -38,6 +38,8 @@ I then logged into the Windows Server virtual machine that I created in Microsof
 <h2>Video Walkthrough</h2>
 
 
+https://youtu.be/0_h_OKCShdU
+
 
 # Step 2 - Connecting the User VM to the BeanInc.Local Domain
 
@@ -47,8 +49,14 @@ Next, I logged onto the User VM and joined it to the BeanInc.Local domain that I
 <h2>Video Walkthorugh</h2>
 
 
+https://youtu.be/xMEWMextKz0
+
+
 # Step 3 - Prepping our Active Directory environment
 
 Lastly, I logged into our domain controller and set up our active directory environment for my next lab.
 
 <h2>Video Walkthrough</h2>
+
+https://youtu.be/glvUpmM2DJw
+
