@@ -39,5 +39,16 @@ I then logged into the Windows Server virtual machine that I created in Microsof
 
 
 
+# Step 2 - Connecting the User VM to the BeanInc.Local Domain
 
-# Step 2 - CO
+Next, I logged onto the User VM and joined it to the BeanInc.Local domain that I had just created. After joining the domain, I went back to the Domain Controller and used Active Directory Users and Computers (ADUC) to confirm that the User VM had successfully joined the domain and appeared in Active Directory.
+
+
+<h2>Video Walkthorugh</h2>
+
+
+# Step 3 - Prepping our Active Directory environment
+
+Lastly, I logged into our domain controller and set up our active directory environment for my next lab.
+
+<h2>Video Walkthrough</h2>
