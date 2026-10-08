@@ -6,10 +6,6 @@
 
 
 
-https://github.com/user-attachments/assets/afb81b6c-d9ef-417e-b089-e4b85c4b1edd
-
-
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
