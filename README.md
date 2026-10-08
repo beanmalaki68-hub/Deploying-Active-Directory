@@ -31,28 +31,31 @@
 I then logged into the Windows Server virtual machine that I created in Microsoft Azure and installed the Active Directory Domain Services (AD DS) role. After installing AD DS, I promoted the server to a Domain Controller (DC) and configured the Active Directory domain name as BeanInc.Local.
 
 
-<h2>Video Walkthrough</h2>
+<h2>Step 1 Video Walkthrough</h2>
 
 
 https://youtu.be/0_h_OKCShdU
 
+---
 
 # Step 2 - Connecting the User VM to the BeanInc.Local Domain
 
 Next, I logged onto the User VM and joined it to the BeanInc.Local domain that I had just created. After joining the domain, I went back to the Domain Controller and used Active Directory Users and Computers (ADUC) to confirm that the User VM had successfully joined the domain and appeared in Active Directory.
 
 
-<h2>Video Walkthorugh</h2>
+<h2>Step 2 Video Walkthorugh</h2>
 
 
 https://youtu.be/xMEWMextKz0
 
+---
 
 # Step 3 - Prepping our Active Directory environment
 
 Lastly, I logged into our domain controller and set up our active directory environment for my next lab.
 
-<h2>Video Walkthrough</h2>
+<h2>Step 3Video Walkthrough</h2>
 
 https://youtu.be/glvUpmM2DJw
 
+---
